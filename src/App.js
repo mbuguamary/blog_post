@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Posts from './Pages/Posts/Posts'
+import Post from './Pages/Post/Post'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
+    <div>
+      <Posts />
+      <Post />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
